@@ -7,7 +7,7 @@ namespace soroban {
             led.unplot(0, y)
         }
         if (n < 0) {
-            led.plot(0, ３)
+            led.plot(0, 2)
             n *= -1
         }
         for (let x = 4; x > 0; x--) {
